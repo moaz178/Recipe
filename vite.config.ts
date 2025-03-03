@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
 
-  base: '',
+  base: '/Recipe',
   plugins: [react()],
 
   // Output the build to the docs folder

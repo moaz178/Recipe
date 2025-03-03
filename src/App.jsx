@@ -20,10 +20,10 @@ function App() {
           >
             <Navbar />
             <Routes>
-              <Route path="/Recipe/" element={<LandingPage />} />
+              <Route path="/Recipe" element={<LandingPage />} />
               <Route path="/recipes" element={<MainPage />} />
               <Route path="/history" element={<SummaryPage />} />
-              <Route path="/recipe/:id" element={<RecipeDetails />} /> {/* Added route for recipe details */}
+              <Route path="/recipe/:id" element={<RecipeDetails />} /> 
             </Routes>
           </motion.div>
         </div>
