@@ -35,7 +35,7 @@ const Navbar = () => {
           </Link>
           
           <div className="flex space-x-1">
-            <NavLink to="/Recipe" active={location.pathname === '/'}>
+            <NavLink to="/Recipe" active={location.pathname === '/Recipe'}>
               <Home className="h-5 w-5 mr-1" />
               <span className="hidden sm:inline">Home</span>
             </NavLink>

@@ -6,7 +6,6 @@ export default defineConfig({
   base: '/Recipe',
   plugins: [react()],
 
-  // Output the build to the docs folder
   build: {
     outDir: 'docs',
   },
